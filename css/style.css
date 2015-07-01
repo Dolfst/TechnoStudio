@@ -1,0 +1,41 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.com {
+
+}
+
+.com_li li {
+font-size:12px;
+display:inline-block;
+margin-right: -15px;
+}
+
+.grp {
+font-size:11px;
+}
+
+.adcomm {
+color: #fafafa;
+}
+
+.short_story img {
+display: none;
+}
+
+.ava {
+width: 75px;
+height: 75px;
+}
