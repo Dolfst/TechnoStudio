@@ -32,9 +32,9 @@ max-width: 100%;
             </div>
             <div class="card-action">
               <a class="waves-effect waves-light btn disabled" href="javascript:history.go(-1)"><b><i class="material-icons left">arrow_back</i></b></a>
-            <div class="pheading">
-	<h4>Комментарии:</h4>
-	<a class="waves-effect waves-light btn" href="#" onclick="[group=5]Materialize.toast('<span>Пожалуйста,</span><a class=&quot;btn-flat blue-text&quot; href=&quot;/index.php?do=register&quot;>зарегистрируйтесь<a>', 5000);[/group] $('#addcform').toggle();return false;"><b style="color: #fafafa;"><i class="material-icons left">comment</i>Оставить комментарий</b></a>
+            <div class="row">
+	<div class="col s1"><h4>Комментарии:</h4></div>
+	<div class="col s6 offset-s5"><br /><a class="waves-effect waves-light btn green secondary-content" href="#" onclick="[group=5]Materialize.toast('<span>Пожалуйста,</span><a class=&quot;btn-flat blue-text&quot; href=&quot;/index.php?do=register&quot;>зарегистрируйтесь<a>', 5000);[/group] $('#addcform').toggle();return false;"><b style="color: #fafafa;"><i class="material-icons left">comment</i>Оставить комментарий</b></a></div>
 	
 </div>
 {addcomments}

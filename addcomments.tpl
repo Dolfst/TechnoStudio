@@ -57,7 +57,7 @@
 				</td>
 			</tr>
 			[/recaptcha]		
-		<div class="fieldsubmit">
-			<button type="submit" name="submit" class="fbutton"><span>[not-aviable=comments]Добавить[/not-aviable][aviable=comments]Изменить[/aviable]</span></button>
+		<div class="row">
+			<button type="submit" name="submit" class="waves-effect waves-green btn green lighten-5 black-text"><span>[not-aviable=comments]Добавить[/not-aviable][aviable=comments]Изменить[/aviable]</span></button>
 		</div>
 </div>

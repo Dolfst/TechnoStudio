@@ -1,5 +1,5 @@
 <div class="pheading"><h2>Добавить новость</h2></div>
-<div class="baseform">	
+<div class="baseform">
 	<table class="tableform">
 		<tr>
 			<td class="label">
@@ -51,7 +51,7 @@
 			<td colspan="2">
 				<b>Подробная часть:</b> (Необязательно)
 				[not-wysywyg]
-				<div class="bb-editor">
+				<div class="row">
 					{bbcode}
 					<textarea name="full_story" id="full_story" onfocus="setFieldName(this.name)" rows="20" class="f_textarea" >{full-story}</textarea>
 				</div>

@@ -16,7 +16,7 @@ max-width: 100%;
         <div class="card-reveal short_story">
           <span class="card-title grey-text text-darken-4">[full-link]{title}[/full-link] <i class="material-icons right">close</i></span>
           <p>{short-story}</p>
-          [full-link]<span class="waves-effect waves-light btn"><b>Подробнее</b> <i class="material-icons right">more</i></span>[/full-link]
+          [full-link]<span class="waves-effect waves-light light-blue darken-2 btn"><b>Подробнее</b> <i class="material-icons right">more</i></span>[/full-link]
         </div>
       </div>
    </div>

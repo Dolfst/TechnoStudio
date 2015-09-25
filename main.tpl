@@ -10,7 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
           
     
-<link rel="shortcut icon" href="{THEME}/images/favicon.ico" />
+<link rel="shortcut icon" href="{THEME}/images/favicon.png" />
 <!--<link media="screen" href="{THEME}/style/styles.css" type="text/css" rel="stylesheet" />-->
 <link media="screen" href="{THEME}/style/engine.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="{THEME}/js/libs.js"></script>
@@ -26,28 +26,29 @@
 {AJAX}
   <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content active">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
+  <li><a class="light-blue-text text-darken-2" href="#!">Помощь</a></li>
+  <li><a class="light-blue-text text-darken-2" href="/rules_server.html">Правила сервера</a></li>
+  <li><a class="light-blue-text text-darken-2" href="#!">Контакты</a></li>
   <li class="divider"></li>
-  <li><a href="#!">tri</a></li>
+  <li><a class="light-blue-text text-darken-2" href="/about_server.html">О сервере</a></li>
 </ul>
  <div class="navbar-fixed">
 <nav>
   <div class="nav-wrapper light-blue darken-2">
-    <div class="container"><a href="/" class="brand-logo"> TechnoStudio</a></div>
+    <div class="container"><a href="/" class="brand-logo"> Luxury Life</a></div>
     <a href="#!" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><form>
+    <!--<li><form>
         <div class="input-field">
           <input id="search" type="search" required>
           <label for="search"><i class="material-icons">search</i></label>
           <!--<i class="material-icons">close</i>-->
-        </div>
-      </form></li>
-      <li><a class="modal-trigger waves-effect waves-light btn" href="#modal1">Sass</a></li>
-      <li><a href="#!" onclick="Materialize.showStaggeredList('#log')"><i class="material-icons">filter_drama</i></a></li>
+        <!--</div>
+      </form></li>-->
+      <li><a class="light-blue-text text-lighten-5 modal-trigger waves-effect waves-light btn-flat" href="steam://connect/109.111.184.3:2302">Войти на сервер</a></li>
+      <li><a href="/news" class=""><i class="material-icons">public</i></a></li>
       <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1" class="button-collapse">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1" class="button-collapse">Информация<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
      {login}
@@ -81,33 +82,33 @@
     
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">© Luxury Life</h5>
+          <p class="grey-text text-lighten-4">Портал сервера Arma 3. Все аудио, видео файлы и другая литература собранные на сайте только в ознакомительных целях.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Категории</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="/news">Новости</a></li>
+            <li><a class="white-text" href="#!">Конкурсы</a></li>
+            <li><a class="white-text" href="#!">События</a></li>
+            <li><a class="white-text" href="/blog">Блог</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Информация</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">Помощь</a></li>
+            <li><a class="white-text" href="/rules_server.html">Правила сервера</a></li>
+            <li><a class="white-text" href="#!">Контакты</a></li>
+            <li><a class="white-text" href="/about_server.html">О сервере</a></li>
           </ul>
         </div>
       </div>
     
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container">          
       Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>

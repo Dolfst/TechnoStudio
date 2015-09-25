@@ -1,5 +1,5 @@
 <div class="row">
-<div class="col s12 m8 offset-m0.5 l0 offset-l0">
+<div class="col l11 m11 offset-m1 offset-l1">
         <div class="card-panel grey lighten-5 z-depth-1">
           <div class="row valign-wrapper">
             <div class="col s2">
